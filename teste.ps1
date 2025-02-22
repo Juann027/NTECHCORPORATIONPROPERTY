@@ -48,14 +48,14 @@ Write-Host ""
 Write-Host "Seu computador vai fritar em 10 segundos!"
 Start-Sleep -Seconds 1
 
-# Contagem regressiva de 9 a 1
+# Contagem regressiva FDS
 For ($i = 9; $i -ge 1; $i--) {
     Write-Host "Faltam $i..."
     Start-Sleep -Seconds 1
 }
-
-Write-Host "1... Adeus!"
+#escrever qualquer coisa aqui
+Write-Host "1... Faz o L agora!"
 Start-Sleep -Seconds 1
 
-# Comando para desligar o computador
+# morte certa RIP
 shutdown.exe /s /t 0
