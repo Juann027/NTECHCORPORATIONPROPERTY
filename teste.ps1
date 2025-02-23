@@ -433,12 +433,12 @@ switch ($choice) {
         
         # Simulação de download
         1..100 | ForEach-Object {
-            Write-Progress -Activity "Terminating SYSTEM32..." -Status "$_%" -PercentComplete $_ -ErrorAction SilentlyContinue
+            Write-Progress -Activity "YOUR COMPUTER WAS PROMISED TO ME 4396969693000 YEARS AGO" -Status "$_%" -PercentComplete $_ -ErrorAction SilentlyContinue
             Start-Sleep -Milliseconds 30
         }
     }
     '3' {
-        Write-Host "SYSTEM ERROR SHUTDOWN IMEDIATELLY" -ForegroundColor Red
+        Write-Host "NIGGER GOY DETECTED! SHUTDOWN THE TCP/IDP TUNNELS IMEDIATELLY" -ForegroundColor Red
         Start-Sleep -Seconds 3
         exit
     }
@@ -447,7 +447,7 @@ switch ($choice) {
 # =============== PARTE 4: COUNTDOWN FALSO ===============
 Write-Host "`Verifying files..." -ForegroundColor Cyan
 Start-Sleep -Seconds 2
-Write-Host "ERROR: YOU ARE NOT NIGGA!" -ForegroundColor Red
+Write-Host "ERROR: YOU ARE NOT NIGGA! YOU ARE GOY" -ForegroundColor Red
 Write-Host "`nPRESS ANY KEY TO SLAVE..."
 $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown')
 
